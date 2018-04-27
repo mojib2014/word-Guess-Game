@@ -1,7 +1,7 @@
 var wins = 0;
 var losses = 0;
 var guessesLeft = 10;
-var yourGuessesSoFar = 0;
+var yourGuessesSoFar = [];
 
 var computerChoice = ["r", "p", "s", "z", "g", "j"];
 
@@ -9,7 +9,7 @@ var computerChoice = ["r", "p", "s", "z", "g", "j"];
   document.onkeyup = function(event) {
       var userGuess = event.key;
       var computerGuess = computerChoice[Math.floor(Math.random() * computerChoice.length)];
-    
+    yourGuessesSoFar.push(userGuess);
 
     if (userGuess === computerGuess) {
         wins++;

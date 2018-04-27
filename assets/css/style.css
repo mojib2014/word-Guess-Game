@@ -1,9 +1,24 @@
 
 body {
-    background: url("http://www.designtos.com/postpic/2010/05/black-texture_169245.jpg");
     text-align: center;
-    
+    background: url("https://fairydustteaching.com/wp-content/uploads/2015/10/IMG_1770.jpg");
+    font-size: 40px;
 } 
-h1 {
-    text-align: center;
+.container {
+    background: url("https://siri-cdn.appadvice.com/wp-content/appadvice-v2-media/2016/12/Sletters-background_da2c233cb91fd694593792d98a01ea66-xl.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 50%;
+    height: 2000px;
+    margin-top: 0;
 }
+h1, h3 {
+    text-align: center;
+    font-weight: bold;
+    color: yellow;    
+}
+#game {
+    color: rgb(3, 3, 43);
+}
+
